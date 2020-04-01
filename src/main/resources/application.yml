@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  batch:
+    job:
+      enable: false
+
+
+datasource:
+  url: jdbc:mysql://localhost:3306/cmosbatch
+  username: root
+  password: jianjian123
+  driver-class-name: com.mysql.cj.jdbc.Driver
